@@ -2,15 +2,13 @@
     background-image: linear-gradient(to right, white, yellow);
 }
 
-#button {
+ #button {
     margin-top: 3vh;
 }
 
-body {
-    background-color: lightgray;
-}
 
-.card-section {
+
+ .card-section {
     margin-top: 7vh;
 }
 
@@ -20,19 +18,14 @@ body {
 }
 
 
-/* .mod_size {
-    height: 70vh;
-} */
 
 .cards {
-    display: flex;
-    align-items: stretch;
-    align-content: stretch;
-    /* /* flex: 0 0 100%; */
+    margin-left: 30px;
 }
 
 .buttons {
-    width: 100%;
+    width: 80%;
+    margin: 17px;
 }
 
 .is-flex {
@@ -49,7 +42,8 @@ body {
 }
 
 .ph-modal::-webkit-input-placeholder {
-    font-size: 12px;
+    font-size: 11px;
+    font-weight: bold;
 }
 
 .containers {
@@ -58,4 +52,16 @@ body {
 
 .modal-card-head {
     background-color: yellow;
+} 
+
+.is-link{
+    margin: 30px 50px 35px 55px;
+}
+
+.form-list{
+    margin-top: 10px;
+}
+
+ul {
+    font-size: 25px;
 }
